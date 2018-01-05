@@ -1,4 +1,4 @@
-FROM registry.new.dataos.io/library/golang:1.8.1
+FROM index.tenxcloud.com/docker_library/golang:latest
 MAINTAINER wzy rpc test
 ADD ./server.go /go/src
 WORKDIR /go/src

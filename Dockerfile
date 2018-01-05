@@ -1,4 +1,4 @@
-FROM index.tenxcloud.com/docker_library/golang:latest
+FROM golang:latest
 MAINTAINER wzy rpc test
 ADD ./server.go /go/src
 WORKDIR /go/src

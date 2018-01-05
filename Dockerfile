@@ -1,4 +1,4 @@
-FROM golang
+FROM registry.new.dataos.io/library/golang:1.8.1
 MAINTAINER wzy rpc test
 ADD ./server.go /go/src
 WORKDIR /go/src
